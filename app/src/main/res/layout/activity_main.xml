@@ -24,12 +24,12 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/btnRollTheDice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Roll the dice"
         android:background="#993333"
-        android:textColor="#fff"
-        />
+        android:text="Roll the dice"
+        android:textColor="#fff" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,14 +38,17 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/diceImage1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice1"
-            android:layout_weight="50"/>
+            android:layout_weight="50"
+            android:src="@drawable/dice1" />
+
         <ImageView
+            android:id="@+id/diceImage2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice2"
-            android:layout_weight="50"/>
+            android:layout_weight="50"
+            android:src="@drawable/dice2" />
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>
